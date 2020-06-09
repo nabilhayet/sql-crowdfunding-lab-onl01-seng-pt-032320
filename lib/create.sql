@@ -1,5 +1,5 @@
 create table projects (id INTEGER PRIMARY KEY,
-                      title TEXT, category TEXT, funding_goal TEXT,
+                      title TEXT, category TEXT, funding_goal INTEGER,
                       start_date date,  end_date date);
 
 create table users (id INTEGER PRIMARY KEY,
